@@ -1,0 +1,115 @@
+*{
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+html{
+	font-size: 100%
+}
+
+ul,li,a{
+    font-weight:normal; 
+    text-decoration: none;
+}
+
+body{
+    padding:0px 75px;
+}
+
+#body{
+    margin:auto;
+    width:100%;
+    padding:10px;
+}
+
+#logo{
+    margin: auto;
+    width: 15%;
+    border: 3px;
+    padding: 10px;
+    display: block;
+}
+
+
+#navbar{
+    list-style: none;
+    margin:auto;
+    width:150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    width:15%;
+    display:inline-block;
+}
+
+
+
+#education{
+    list-style: none;
+ 
+}
+
+#edright{
+    list-style:none;
+    padding:10px;
+    float:right;
+    display:inline-block;
+}
+
+
+a{
+    text-decoration: none; /*this will remove the underline from hyperlinks*/ 
+}
+
+a:hover{
+    color:#f6c2e7;
+}
+
+a:clicked{
+    color:#e18c9a;
+}
+
+a{
+    text-decoration: none; /*this will remove the underline from hyperlinks*/ 
+    color:#8B3D5F;
+}
+
+
+
+.email{
+    display:inline-block; /*makes this line up next to the other items in a rox */
+    width:33%; 
+    font-size:150%;
+}
+
+.phone{
+    display:inline-block;
+    font-size:150%;
+    width:33%;
+
+}
+
+.address{
+    display:inline-block;
+    font-size:150%;
+    width:33%;
+}
+
+
+
+h1{
+	font-size: 150%;
+	font-weight:bold;
+	text-align:center;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+h4, h6{
+    font-weight: normal;
+}
+
+#honorsawards{
+    font-weight:none;
+}
+}

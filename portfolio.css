@@ -1,0 +1,89 @@
+	
+*{
+box-sizing: border-box;
+}
+
+html{
+	font-size: 100%
+}
+
+#logo{
+    margin: auto;
+    width: 15%;
+    border: 5px;
+    padding: 20px;
+    display: block;
+}
+
+ul,li,a{
+    display:inline; /*this makes the nav bar horitzontal instead of a verticle list */
+    color:#8B3D5F;
+    padding: 30px /*this determine the space between menu items*/ 
+}
+
+#navbar{
+    list-style: none;
+    margin:auto;
+    width:150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none; /*this will remove the underline from hyperlinks*/ 
+    display:inline-block;
+    width:10%;
+}
+
+a:hover{
+    color:#f6c2e7;
+}
+
+a:clicked{
+    color:#e18c9a;
+}
+
+h1{
+    font-size: 150%;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Rochester', cursive;
+}
+
+#portfolio{
+    margin:auto;
+    width:110%;
+    padding:10px;
+}
+
+.post{
+    margin:auto;
+    display:inline-block;
+    padding:10px;
+    border:10px;
+    border-color:#e18c9a;
+    background-size:contain;
+}
+
+ .description{
+    max-width:400px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.campaign{
+    margin:auto;
+    width:100%;
+}
+
+ .campaigninfo{
+    font-family: 'Roboto', sans-serif;
+    max-width:800;
+    padding:20px;
+    margin:auto;
+ }
+
+
+ .images{
+    margin:auto;
+    width:100%;
+    padding:20px;
+ }

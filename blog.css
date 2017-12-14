@@ -1,0 +1,105 @@
+	
+*{
+box-sizing: border-box;
+}
+
+html{
+	font-size: 100%
+}
+
+#logo{
+    margin: auto;
+    width: 15%;
+    border: 5px;
+    padding: 20px;
+    display: block;
+}
+
+ul,li,a{
+    display:inline; /*this makes the nav bar horitzontal instead of a verticle list */
+    color:#8B3D5F;
+    padding: 30px /*this determine the space between menu items*/ 
+}
+
+#navbar{
+    list-style: none;
+    margin:auto;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none; /*this will remove the underline from hyperlinks*/ 
+    display:inline-block;
+    width:10%;
+}
+
+a:hover{
+    color:#f6c2e7;
+}
+
+a:clicked{
+    color:#e18c9a;
+}
+
+#blogbody{
+    margin:auto;
+    width:80%;
+    padding:10px;
+}
+
+h1{
+    font-size: 150%;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Rochester', cursive;
+}
+
+h2, h3, .button{
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+}
+
+p, h2, h3{
+    background-color:#f6c2e7;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    padding:10px 40px 0px 40px;
+}
+
+.post{
+    margin:auto;
+    width:90%
+    padding:25px;
+    margin:10px;
+    background-color:#f6c2e7;
+}
+
+.coverpic{
+    margin:auto;
+    width:50%;
+    display:block;
+}
+
+.button{
+    background-color:#8B3D5F;
+    max-width:125px;
+    text-align:center;
+    padding:5px;
+    margin:5px; /*for some reason, there is no padding on
+    the bottom of the button even with the 10px margin applied?*/ 
+    position:relative;
+    left:850px;
+    bottom:15px;
+}
+
+.readmore{
+    color:white;
+    padding:5px;
+    margin:5px;
+    display:inline;
+}
+
