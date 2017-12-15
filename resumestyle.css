@@ -8,11 +8,11 @@ html{
 }
 
 ul,li,a{
-    font-weight:normal; 
-    text-decoration: none;
+    text-decoration: none; /*removes unerline from links*/ 
 }
 
 body{
+    max-width:100%;
     padding:0px 75px;
 }
 
@@ -31,44 +31,50 @@ body{
 }
 
 
+
 #navbar{
     list-style: none;
     margin:auto;
-    width:150%;
-    font-family: 'Roboto', sans-serif;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+   
 }
 
 .nav{
-    width:15%;
     display:inline-block;
+    margin:auto;
+    width:15%;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+#edparent{
+    display:flex; /*used this instead of inline-block because
+    #goright wasn't lining up next to the #education container;
+    This display setting makes the rest of the container filled*/
+    width:100%;
+}
 
 
 #education{
-    list-style: none;
- 
+    list-style: none; /*removes bullets*/ 
+    width:875px;
 }
 
-#edright{
+#goright{
+    flex:1; /*this when used with the parent rule (display:flex)
+    will make the #goright container fill the screen where the 
+    #education doesnt */ 
     list-style:none;
-    padding:10px;
-    float:right;
-    display:inline-block;
+    text-align: right;
 }
 
-
-a{
-    text-decoration: none; /*this will remove the underline from hyperlinks*/ 
-}
 
 a:hover{
     color:#f6c2e7;
 }
 
-a:clicked{
-    color:#e18c9a;
-}
 
 a{
     text-decoration: none; /*this will remove the underline from hyperlinks*/ 
@@ -76,27 +82,12 @@ a{
 }
 
 
-
-.email{
+.contact{
     display:inline-block; /*makes this line up next to the other items in a rox */
     width:33%; 
-    font-size:150%;
+    margin:auto;
+    font-size:125%;
 }
-
-.phone{
-    display:inline-block;
-    font-size:150%;
-    width:33%;
-
-}
-
-.address{
-    display:inline-block;
-    font-size:150%;
-    width:33%;
-}
-
-
 
 h1{
 	font-size: 150%;
@@ -106,10 +97,6 @@ h1{
 }
 
 h4, h6{
-    font-weight: normal;
+    font-weight: normal; /*lists were showing up bold*/
 }
 
-#honorsawards{
-    font-weight:none;
-}
-}
