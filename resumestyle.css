@@ -31,21 +31,20 @@ body{
 }
 
 
-
 #navbar{
-    list-style: none;
+    font-family:'roboto',sans-serif;
     margin:auto;
-    width:100%;
-    display:inline-block;
+    width:200%;
     text-align:center;
-   
+    display:inline;
 }
 
+
 .nav{
-    display:inline-block;
-    margin:auto;
-    width:15%;
-    font-family: 'Roboto', sans-serif;
+    display:inline; /*this makes the nav bar horitzontal instead of a verticle list */
+    color:#8B3D5F;
+    list-style: none;
+    padding: 60px /*this determine the space between menu items*/ 
 }
 
 

@@ -30,12 +30,6 @@ ul,li,a{
     text-align:center;
 }
 
-.nav{
-    display:inline-block;
-    margin:auto;
-    width:15%;
-}
-
 a{
     text-decoration: none; /*this will remove the underline from hyperlinks*/
 }
@@ -83,4 +77,38 @@ p{
     width:1000px;
 }
 
+footer{
+    background-color:#f6c2e7;
+    margin:auto;
+    width:90%;
+    height:150px;
+    padding:1px;
+}
+
+.socialmedia{
+    display:inline-block;
+    width:3%;
+    margin:auto;
+}
+
+#socialmedia{
+    display:block;
+    color:#8B3D5F;
+    font-family:'roboto', sans-serif;
+    font-weight:bold;
+    margin:auto;
+    width:90%;
+    text-align:center;
+}
+
+#footerinfo{
+    color:#8B3D5F;
+    display:block;
+    font-weight:bold;
+    margin:auto;
+    text-align:center;
+    font-style:italic;
+    width:90%;
+    line-height: 30%
+}
 
